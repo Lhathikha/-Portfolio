@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #f5f7fa;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+}
+
+.header img {
+    width: 300px;
+    border-radius: 100%;
+}
+.right a {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link (removes violet) */
+.right a:visited {
+    color: white;
+}
+
+/* hover effect */
+.right a:hover {
+    color: #38bdf8;
+}
+
+/* ACCORDION */
+.accordion button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background: #0f172a;
+    color: white;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+    padding: 20px;
+    background: white;
+}
+
+.content.active {
+    display: block;
+}
+
+/* CARDS */
+.card {
+    background: #f1f5f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+/* SKILLS */
+.skills span {
+    background: #38bdf8;
+    padding: 6px 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+}
+
+/* GALLERY */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+}

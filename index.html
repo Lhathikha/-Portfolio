@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lhathikha V Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<script>
+function toggleSection(id) {
+    const section = document.getElementById(id);
+    section.classList.toggle("active");
+}
+</script>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+
+    <div class="left">
+        <img src="profile.jpg">
+    </div>
+
+    <div class="center">
+        <h1>Lhathikha V</h1>
+    </div>
+
+    <div class="right">
+        <p>📞 9842490700</p>
+        <p>📧 lhathikha.work@gmail.com</p>
+        <p><a href="https://www.linkedin.com/in/lhathikha-vairakkannan-91009b296/" target="_blank">
+            
+LinkedIn
+</a></p>
+<p><a href="https://github.com/Lhathikha" target="_blank">
+            
+Projects Link
+</a></p>
+    </div>
+
+</header>
+
+<!-- ABOUT -->
+<div class="accordion">
+    <button onclick="toggleSection('about')">About ▼</button>
+    <div id="about" class="content">
+        <p>
+        I am a 3rd-year Computer Science Engineering student with a strong interest in full-stack development, web application building, and Java programming. I have gained practical experience through academic coursework and hands-on projects, and I am also actively exploring machine learning to expand my technical skill set.
+        </p>
+    </div>
+</div>
+
+<!-- EDUCATION -->
+<div class="accordion">
+    <button onclick="toggleSection('education')">Education ▼</button>
+    <div id="education" class="content">
+
+        <div class="card">
+            <h3>B.E CSE</h3>
+            <p>KPR Institute of Engineering and Technology</p>
+            <p>CGPA: 9.5</p>
+        </div>
+
+        <div class="card">
+            <h3>Higher Secondary</h3>
+            <p>Einsstein Matric School</p>
+            <p>98.6%</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- SKILLS -->
+<div class="accordion">
+<button onclick="toggleSection('skills')">Skills ▼</button>
+
+<div id="skills" class="content">
+
+    <h4>Programming</h4>
+    <div class="skills">
+        <span>Java</span>
+    </div>
+
+    <h4>Web Technologies</h4>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+    </div>
+
+    <h4>Frameworks & Tools</h4>
+    <div class="skills">
+        <span>Node.js</span>
+        <span>MongoDB</span>
+        
+    </div>
+
+    <h4>Core Competencies</h4>
+    <div class="skills">
+        
+        <span>OOP</span>
+        <span>Machine Learning(Basics)</span>
+    </div>
+
+    <h4>Soft Skills</h4>
+    <div class="skills">
+        <span>Leadership</span>
+        <span>Decision Making</span>
+        <span>Public speaking</span>
+    </div>
+
+</div>
+</div>
+
+<!-- PROJECTS -->
+<div class="accordion">
+<button onclick="toggleSection('projects')">Projects ▼</button>
+
+<div id="projects" class="content">
+
+
+
+
+
+<div class="card">
+<h3>Leftover Food Exchange App</h3>
+<p>A community app where people post leftover food, nearby users can book it, and both sender and receiver get  instant notifications..</p>
+</div>
+<div class="card">
+<h3>Fabric Identification & Price Prediction</h3>
+<p>Real-time system that detects fabric type using CNN and estimates price.</p>
+</div>
+<div class="card">
+<h3>Homestyle Interiors website</h3>
+<p>A web based application that allows users to explore home interior designs and book their preferred designs online.</p>
+</div>
+
+
+</div>
+</div>
+
+<!-- EXPERIENCE -->
+<div class="accordion">
+<button onclick="toggleSection('experience')">Experience ▼</button>
+
+<div id="experience" class="content">
+
+<div class="card">
+<h3>Frontend Developer Intern</h3>
+<p>Unified Mentor</p>
+<img src="intern.jpg">
+<p>Developed responsive UI using HTML, CSS, and JavaScript.</p>
+</div>
+
+</div>
+</div>
+
+<!-- ACHIEVEMENTS -->
+<div class="accordion">
+<button onclick="toggleSection('achievements')">Achievements ▼</button>
+
+<div id="achievements" class="content">
+
+<p><b>Academic Topper – 1st, 2nd, 3rd Year (CSE)</b></p>
+<p>Maintained top academic performance across all years.</p>
+
+<p><b>First Prize – Paper Presentation</b></p>
+<p>Won first prize at Sri Ramakrishna Engineering College.</p>
+
+<p><b>Hackathon Finalist</b></p>
+<p>Finalist in Tamil Nadu State Level Hackathon.</p>
+
+<p><b>World Record Contributor</b></p>
+<p>Participated in Mental Health World Record Event.</p>
+
+<div class="gallery">
+<img src="topper1a.jpeg"><img src="topper1b.jpeg">
+<img src="topper2a.jpeg"><img src="topper2b.jpeg">
+<img src="topper3a.jpeg"><img src="topper3b.jpeg">
+<img src="paper1.jpeg"><img src="paper2.jpeg">
+<img src="hack1.jpeg"><img src="hack2.jpeg">
+<img src="world1.jpeg"><img src="world2.jpeg">
+</div>
+
+</div>
+</div>
+
+<!-- SOCIAL -->
+<div class="accordion">
+<button onclick="toggleSection('social')">Social Activities ▼</button>
+
+<div id="social" class="content">
+
+<p>Participant in Walkathon for afforestation 🌳🚶‍♂️</p>
+
+<img src="walkathon.jpeg">
+
+</div>
+</div>
+
+<!-- LEADERSHIP -->
+<div class="accordion">
+<button onclick="toggleSection('leadership')">Leadership ▼</button>
+
+<div id="leadership" class="content">
+
+<ul>
+<li>Co-ordinator - TechPatrons Club</li>
+<li>Class Committee Member</li>
+<li>Branding Team Member</li>
+</ul>
+
+<div class="gallery">
+<img src="b1.jpeg"><img src="b2.jpeg"><img src="b3.jpeg"><img src="b4.jpg"><img src="b5.jpg">
+</div>
+
+</div>
+</div>
+
+<!-- CERTIFICATIONS -->
+<div class="accordion">
+<button onclick="toggleSection('certifications')">Certifications ▼</button>
+
+<div id="certifications" class="content">
+
+<p><b>NPTEL Cyber Security (Elite Gold)</b></p>
+<p>Advanced knowledge in cybersecurity principles.</p>
+
+<p><b>NPTEL Industry 4.0 (Elite Silver)</b></p>
+<p>Understanding industrial automation and IoT.</p>
+
+<p><b>NPTEL NLP</b></p>
+<p>Natural Language Processing fundamentals.</p>
+
+<div class="gallery">
+<img src="c1.jpeg"><img src="c2.jpeg"><img src="c3.jpeg">
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
